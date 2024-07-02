@@ -133,3 +133,15 @@ grid-area: a22;
 .lay-card:hover{
   box-shadow: 0 8px 15px 0 rgba(0,0,0,0.20);
 }
+.alpha{
+  display: flex;
+  background-color: yellow;
+  border-radius: 10px;
+  height: 60px;
+}
+.hello{
+  background-color: #fde;
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
