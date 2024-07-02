@@ -110,12 +110,10 @@ grid-area: a22;
   padding-bottom:16px;
   margin-bottom:14px;
    font-family: "Lato", sans-serif;
-  /* text-decoration:uppercase; */
   text-transform: uppercase;
 }
 .contain span{
-  font-size:0.5rem;
-  
+  font-size:0.8rem;
 }
 .lay-card{
   width:7rem;
