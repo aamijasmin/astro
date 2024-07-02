@@ -1,0 +1,135 @@
+.intro {
+  height: 45rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: (8, 1fr);
+    grid-template-rows: (4, 1fr);
+    grid-column-gap:6px;
+    grid-template-areas:
+    ". . a1  a1 a1  a1. ."
+    "a2 a3 a4 a5 a6 a7 a8 a9"
+    "a10 a11 a12 a13 a14 a15 a16 a17 "
+    ".  a18 a19 a20 a21 a22  .  . ";
+  justify-content: center;
+  background: linear-gradient(
+
+    0deg,
+    rgb(171, 216, 211)0%,
+    rgb(115, 191, 184)76%,
+    rgb(39, 84, 79)100%
+    );
+  padding: 10px;
+}
+.write{
+  width: 100%;
+  height: 3rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #132a28;
+  display: flex;
+  justify-content:center; 
+  align-items:center;
+  letter-spacing:1px;
+  word-spacing:1px;
+  font-weight:600;
+ text-align: center; 
+  list-style: none;
+}
+#a1{
+grid-area: a1;
+}
+#a2{
+grid-area: a2;
+}
+#a3{
+grid-area: a3;
+}
+#a4{
+grid-area: a4;
+}
+#a5{
+grid-area: a5;
+}
+#a6{
+grid-area: a6;
+}
+#a7{
+grid-area: a7;
+}
+#a8{
+grid-area: a8;
+}
+#a9{
+grid-area: a9;
+}
+#a10{
+grid-area: a10;
+}
+#a11{
+grid-area: a11;
+}
+#a12{
+grid-area: a12;
+}
+#a13{
+grid-area: a13;
+}
+#a14{
+grid-area: a14;
+}
+#a15{
+grid-area: a15;
+}
+#a16{
+grid-area: a16;
+}
+#a17{
+grid-area: a17;
+}
+#a18{
+grid-area: a18;
+}
+#a19{
+grid-area: a19;
+}
+#a20{
+grid-area: a20;
+}
+#a21{
+grid-area: a21;
+}
+#a22{
+grid-area: a22;
+}
+.contain{
+  color: #1A3836;
+  font-size: 14px;
+  letter-spacing:1px;
+  font-weight:400;
+  margin-top:0;
+  height:40px;
+  padding-bottom:16px;
+  margin-bottom:14px;
+  display:inline;
+  text-align:center; 
+}
+.lay-card{
+  width:7rem;
+  margin-top: 10px;
+  height: 10rem;
+  transition: 0.4s;
+  border-radius: 8px;
+  padding-bottom:10px;
+  box-shadow:  0 8px 8px 0 rgba(0,0,0,0.25);
+}
+.lay-card img{
+  width: 100%;
+  height: 7rem;
+  border-top-right-radius:8px;
+  border-top-left-radius:8px;
+  box-sizing:border-box;
+  margin-top:0;
+}
+.lay-card:hover{
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.20);
+}
