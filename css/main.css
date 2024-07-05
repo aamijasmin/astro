@@ -59,7 +59,7 @@ h2 {
 .search_bar {
   position:absolute;
   top: 28px;
-  left:225px;
+  left:232px;
   background-color:white;
   border-radius:12px;
 }
@@ -72,7 +72,7 @@ h2 {
   border:none;
   background-color:white;
   border-radius:12px;
-  transform:translateX(-5px) rotate(-50deg);
+  transform:translatex(-5px) rotate(-50deg);
 }
 span {
   font-size:20px;
